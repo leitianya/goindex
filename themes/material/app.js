@@ -266,19 +266,32 @@ function file_video(path){
 	var content = `
 <div class="mdui-container-fluid">
 	<br>
+  <br>
+      <p><font size="4" face="arial" color="red">  联系方式与你:xiongpian，（手机商店搜索与你下载）临时QQ，请点下面官网链接查看，可能举报随时更换<br> </font></p>
+      <p><font size="4" face="arial" color="red"> 提供影片查找服务 提供影片截图 视频片段 名字等信息 </font></p>
+      <p><font size="4" face="arial" color="#00FF00"> 视频下载方法在下面哦 👇</font></p>
+      <p><font size="4" face="arial" color="red">  <a href="https://twitter.com/heichuda" style="color:#E74C3C;">👉🏻点击直达推特@heichuda 需vpn，记得关注转发哦</a> </font></p>
+      <p><font size="4" face="arial" color="red">  <a href="http://xx.gaycn.men" style="color:#E74C3C;">👉🏻点我进入官网</a> </font></p>
+
+  <br>
 	<video class="mdui-video-fluid mdui-center" preload controls>
 	  <source src="${url}" type="video/mp4">
 	</video>
 	<br>
 	<!-- 固定标签 -->
 	<div class="mdui-textfield">
-	  <label class="mdui-textfield-label">下载地址</label>
+
+      <font color="red">
+ 	  请务必复制链接于浏览器打开，预防被国内浏览器屏蔽安装使用chrome<br><br>
+	  晚上高峰电信 移动会比较慢， 提示加载失败或者打不开需挂上VPN 如还不可以还有百度云压缩包选择，联系索取<br><br>
+	  手机端下载方法：安卓点击右下角 蓝色下载图标 可以直接下载的<br>苹果手机下载指尖浏览器或者QQ浏览器（ios13以上自带浏览器也可以），复制链接在指尖打开，点右下角蓝色下载图标，等播放时点视频上的下载就可以下载了哦 <br>
+      <br>电脑pc端或者使用下载工具，直接复制“网页最下面下载地址”到下载工具（迅雷等。）就OK!<br>如与后缀不是mp4下载后改为mp4即可 <br>
+      </font>
+
+	  <label class="mdui-textfield-label">下载工具请复制我⬇下载地址️</label>
 	  <input class="mdui-textfield-input" type="text" value="${url}"/>
 	</div>
-	<div class="mdui-textfield">
-	  <label class="mdui-textfield-label">引用地址</label>
-	  <textarea class="mdui-textfield-input"><video><source src="${url}" type="video/mp4"></video></textarea>
-	</div>
+	
 </div>
 <a href="${url}" class="mdui-fab mdui-fab-fixed mdui-ripple mdui-color-theme-accent"><i class="mdui-icon material-icons">file_download</i></a>
 	`;
